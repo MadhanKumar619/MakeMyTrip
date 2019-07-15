@@ -1,0 +1,353 @@
+#header-main{    
+    background : linear-gradient(180deg,#051322,#15457c);
+    height  :485px;
+}
+#header-main .header-main-img{
+    width : 118px;
+}
+#header-main .header-btn-log{
+    background: linear-gradient(45deg,#53b2fe,#065af3);
+    width: 40%;    
+    color : white;
+    margin-left : 65%;
+    margin-top  :0.5%;
+    font-size : 0.9em;
+    padding :1%;
+}
+#header-main .header-btn-log .arrow-down{
+    position: relative;
+    top : -3px;
+    left : 15px;    
+}
+#header-main .header-btn-log .header-log-text{    
+    color : blue;
+    background: white;
+    padding :1%;
+    border-radius: 30px;
+    position: relative;
+    left :-15px;
+    font-style: fantasy;
+}
+#header-main .modal{
+    margin-top : 5%;    
+    margin-left: -3%;
+}
+#header-main .modal .modal-content{
+    padding : 3%;   
+    border-radius: 10px; 
+    width : 550px;
+}
+#header-main .modal .modal-content .modal-head{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 1px grey;
+    padding : 1.5%;
+    color : black;    
+}
+#header-main .modal .modal-content .modal-head .col{
+    padding: 1.5%;
+    user-select: none;
+    cursor: pointer;
+}
+#header-main .modal .modal-content .modal-head .active{
+    background : linear-gradient(93deg,#53b2fe,#065af3);
+    border-radius: 20px;    
+    color : white;    
+}   
+#header-main .modal .modal-content .modal-head .activeChange{
+    background : linear-gradient(93deg,#f0772c,#f95776);
+    border-radius: 20px;    
+    color : white; 
+}
+#header-main .modal .modal-content .modal-main{
+    padding-top: 5%;
+}
+#header-main .modal .modal-content .modal-main .log-create{
+    color : #008cff;
+    font-weight: bold;
+}
+#header-main .modal .modal-content .modal-main .login-content{
+    margin-top  :4%;
+}
+#header-main .modal .modal-content .modal-main .login-content .reset-text{
+    position: absolute;
+    top : 5px;
+    right : 10px;
+    color : #008cff;
+}
+#header-main .login-content .custom-control{
+    padding : 3%;
+}
+#header-main .modal-main .log-with-btn{
+    padding : 4% 0%;
+    color : grey;
+}
+#header-main .modal-main .fa-facebook{
+    background : white;
+    color : blue;
+    padding : 1% 3%;
+}
+#header-main .modal-main .btn-google{
+    box-shadow: 1px 1px 1px grey;
+}
+.btn-social{
+    width : 10px!important;
+}
+
+/* Navbar */
+nav{
+    height : 70px;
+}
+nav .header-main-img{
+    margin-left : -5%;
+}
+nav .navbar-menu .menu-content{
+    box-shadow: none!important;
+    margin-top : -3%;    
+    height : 70px;
+}
+nav .menu-content .menu-icons .menu-icon-text{
+    margin-top : -12px;
+} 
+nav .menu-content.active{
+    border: none;
+}
+nav .header-btn-log{
+    margin-left: -15px!important;
+    width :210px!important;
+}
+nav .navbar-right .dropdown-menu{
+    position: absolute;    
+    left  : 76%;
+    top : 50px;
+}
+
+
+/* Menu Icons */
+.menu-content{
+    background :white;               
+    border-radius: 10px;
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,.4);
+    width  :850px;
+    height : 90px;   
+    margin-left : 90px; 
+    margin-top : -6%;     
+}
+.menu-content .menu-icons{    
+    margin : 4px 10px;    
+    height : 60px;
+    width  :75px;            
+    cursor: pointer;    
+}
+.menu-icon-flight{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: 0px -55px;
+}
+.menu-icon-hotel{    
+    background: url('../../assets/commonHeaderIcon.png');        
+    background-position: -65px -55px;
+}
+.menu-icon-holiday{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -131px -55px;
+    width : 51px!important;            
+}
+.menu-icon-train{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -268px -50px;
+    width : 60px!important;
+}
+.menu-icon-bus{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -171px -58px;
+    width : 57px!important;    
+}
+.menu-icon-cab{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -219px -58px;
+    width : 60px!important;
+}
+.menu-icon-visa{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -220px -231px;
+}
+.menu-icon-homevila{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -150px -231px;
+}
+.menu-icon-giftcard{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -315px -55px;
+}
+.menu-icon-more{    
+    background: url('../../assets/commonHeaderIcon.png');    
+    background-position: -376px -55px;
+}
+.menu-icon-holiday .menu-icon-text,
+.menu-icon-train .menu-icon-text,
+.menu-icon-cab .menu-icon-text,
+.menu-icon-bus .menu-icon-text{
+    left : -5.5px!important;
+}
+
+.menu-icon-hotel.active{
+    height : 58px;
+    background-position: -65px 0px;    
+}
+.menu-icon-flight.active{
+    background-position: 0px -2px;
+}
+.menu-icon-holiday.active{
+    background-position: -127px 0px;    
+}
+.menu-icon-train.active{
+    background-position: -268px 5px;
+}
+.menu-icon-bus.active{
+    background-position: -171px 0px;
+}
+.menu-icon-cab.active{
+    background-position: -219px 0px;
+}
+.menu-icon-visa.active{
+    background-position: -220px -295px;
+}
+.menu-icon-homevila.active{
+    background-position: -150px -293px;
+}
+.menu-icon-giftcard.active{
+    background-position: -315px 0px;
+}
+.menu-icon-flight.active .menu-icon-text,
+.menu-icon-hotel.active .menu-icon-text,
+.menu-icon-holiday.active .menu-icon-text,
+.menu-icon-train.active .menu-icon-text,
+.menu-icon-bus.active .menu-icon-text,
+.menu-icon-cab.active .menu-icon-text,
+.menu-icon-visa.active .menu-icon-text,
+.menu-icon-homevila.active .menu-icon-text,
+.menu-icon-giftcard.active .menu-icon-text
+{
+    border-bottom : 2px solid #248bfa;    
+    color : #248bfa;
+}
+
+.menu-content .menu-icon-text{
+    font-size: 0.9em;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    width : 70px;
+    top :60px;    
+    left :2px;
+}
+/* Search Content */
+.menu-search-content{
+    width : 1400px;
+    max-width: 1150px;    
+    height : 300px;
+    position: relative;
+    left : 5px;
+    top : 90px;
+    background : white;    
+    box-shadow: 0 1 px 7px 0 rgba(0,0,0,.4);    
+    border-radius : 10px;
+}
+.menu-content-main .menu-content{
+    width : 900px;
+
+}
+.search-content{
+    position: absolute;
+    top : 25%;    
+    width : 1110px;
+    max-width : 1110px;
+    padding: 1%;
+}
+.search-content .box-1{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width : auto!important;
+    max-width : 100%!important;    
+    height : 110px;
+}
+.search-content .box-5{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.search-content .box-4{
+    max-width : 100%!important;    
+    height  :110px;
+}
+.search-content .search-box{   
+    border : 1px solid rgba(0,0,0,0.2);    
+    cursor: pointer;        
+}
+.search-content .search-box .rooms-box{
+    padding :1%;    
+}
+.search-content .search-box .rooms-hr{
+    margin : 5px 0px;
+}
+.search-content .search-box:hover{
+    background : #eaf5fe;
+}
+.search-content .btn-search{
+    font-size: 1.2em;
+    cursor: pointer;
+    position: absolute;
+    bottom : -81%;
+    left : 35%;
+    padding : 0.5% 6%;
+    border-radius: 30px;
+    background: linear-gradient(45deg,#53b2fe,#065af3);    
+}
+
+.search-content .date-picker{
+    position: absolute!important;
+    width : 370px!important;
+    z-index : -99;    
+}  
+.search-content .vdp-datepicker input{
+    width : 120px;
+    height : 100px;
+    position: absolute;
+    opacity: 0;
+}
+.search-content .vdp-datepicker__calendar{
+    position: absolute;
+    top : 70px;
+    left : -80px;
+}
+.search-content #roomsDropdownMenu{
+    transform: none!important;
+    width : 450px;
+    position:relative;
+    top : 70px!important;
+    left : -55px!important;
+}
+.search-content .area-list{
+    width : 100%;
+    padding: 1.5%;    
+}
+.search-content .rooms-list, .search-content .children-list{
+    width : 60%;
+    padding: 0%;    
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    box-shadow: 0px 1px 7px 0px rgba(0,0,0,.4);
+}
+.search-content .rooms-list li, .search-content .children-list li{
+    float: left;
+    padding :3.5%;
+    width : 31.8px;
+    height :45px;             
+    text-align: center;
+}
+.search-content .rooms-list li.selected, .search-content .children-list li.selected{
+    background: #248bfa;   
+    color : white;
+}
+
+
